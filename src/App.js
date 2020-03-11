@@ -5,6 +5,7 @@ import Clock from './components/Clock'
 import EventListner from './components/EventListener'
 import ListAndKeys from './components/ListAndKeys';
 import NameForm from './components/NameForm';
+import LiftingState from './components/LiftingState'
 
 class App extends React.Component {
 
@@ -14,7 +15,8 @@ class App extends React.Component {
         // <Clock />
         // <EventListner />
         // <ListAndKeys />
-        <NameForm />
+        // <NameForm />
+        <LiftingState />
     );
 
   }
